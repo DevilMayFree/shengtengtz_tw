@@ -1130,7 +1130,7 @@ $(window).on("load resize",function(e){
         <div class="page_subject">
                                   <h1 class="pageTitle">關於勝騰</h1>
                                                             <ul class="breadcrumb pull-right">
-          <li showsize=""><a href="index.php?lang=tw" title="首頁">首頁</a> </li><li  active><a href="/article/tb/1/ot_all.html" orglink="article/tb/1/ot_all.html" title="關於勝騰">關於勝騰</a></li><script type="application/ld+json">
+          <li showsize=""><a href="/index.html" title="首頁">首頁</a> </li><li  active><a href="/article/tb/1/ot_all.html" orglink="article/tb/1/ot_all.html" title="關於勝騰">關於勝騰</a></li><script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
