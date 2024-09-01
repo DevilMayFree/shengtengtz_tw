@@ -296,6 +296,52 @@ $(window).on("load resize",function(e){
 </script>
 <style>
 .error{color:red;}
+
+table {
+    width: 100%;
+}
+
+table th {
+    width: 16.6666666667%;
+    padding: 10px;
+    font-size: 1.0888888889rem;
+    line-height: 1.7422222222rem;
+    background-color: #a46843;
+    color: #fff;
+}
+
+table tr:nth-child(even) td {
+    background-color: #f3efe5;
+}
+
+table tr td {
+    padding: 10px;
+    font-size: 1.0111111111rem;
+    line-height: 1.6177777778rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+    table {
+        width: 700px;
+    }
+
+    table th {
+        font-size: .9333333333rem;
+        line-height: 1.4933333333rem;
+    }
+
+    table tr td {
+        font-size: .8555555556rem;
+        line-height: 1.3688888889rem;
+    }
+
+    .table-div {
+        overflow-x: scroll;
+    }
+}
+
+
 </style>
 </head>
 <body domain_is_safe="no" class="wrapper_bg page_wrapper_bg tb_download fn_download1 lang_tw" attr-type="www.rw-advisory.com" attr-type2="www.rw-advisory.com" attr-trans="Y" RID="">
@@ -1157,8 +1203,254 @@ $(window).on("load resize",function(e){
 
             <section class="article-text rwd">
                 <div class="container ">
-                    <div class="xrow" style="display: flex;justify-content: center;align-items: center;">
-                        <img src="bg.jpg" alt="" style="max-width: 100%;height: auto;">
+                    <!--<div class="xrow" style="display: flex;justify-content: center;align-items: center;">-->
+                    <div class="xrow table-div" >
+                        <!--<img src="bg.jpg" alt="" style="max-width: 100%;height: auto;">-->
+
+                        <table>
+                            <tr>
+                                <th>股票代號</th>
+                                <th>股票名稱</th>
+                                <th>登錄日期</th>
+                                <th>登錄價格</th>
+                                <th>最高價</th>
+                                <th>產業類別</th>
+                            </tr>
+                            <tr>
+                                <td>6869</td>
+                                <td>雲豹能源科技</td>
+                                <td>111/01/19</td>
+                                <td>70</td>
+                                <td>105.5</td>
+                                <td>其他業</td>
+                            </tr>
+                            <tr>
+                                <td>2254</td>
+                                <td>巨鎧精密</td>
+                                <td>110/11/26</td>
+                                <td>140</td>
+                                <td>234</td>
+                                <td>電機機械</td>
+                            </tr>
+                            <tr>
+                                <td>6763</td>
+                                <td>綠界科技</td>
+                                <td>109/04/09</td>
+                                <td>1010</td>
+                                <td>1570</td>
+                                <td>電⼦商務業</td>
+                            </tr>
+                            <tr>
+                                <td>2758</td>
+                                <td>路易莎咖啡</td>
+                                <td>110/09/17</td>
+                                <td>118</td>
+                                <td>209</td>
+                                <td>觀光事業</td>
+                            </tr>
+                            <tr>
+                                <td>6757</td>
+                                <td>台灣虎航</td>
+                                <td>109/12/16</td>
+                                <td>41</td>
+                                <td>63.51</td>
+                                <td>航運業</td>
+                            </tr>
+                            <tr>
+                                <td>6789</td>
+                                <td>采鈺</td>
+                                <td>110/04/06</td>
+                                <td>240</td>
+                                <td>620</td>
+                                <td>半導體</td>
+                            </tr>
+                            <tr>
+                                <td>6811</td>
+                                <td>宏碁資訊</td>
+                                <td>110/01/06</td>
+                                <td>72</td>
+                                <td>262.5</td>
+                                <td>資訊服務業</td>
+                            </tr>
+                            <tr>
+                                <td>6753</td>
+                                <td>龍德造船</td>
+                                <td>110/01/12</td>
+                                <td>25</td>
+                                <td>45.25</td>
+                                <td>航運業</td>
+                            </tr>
+                            <tr>
+                                <td>4583</td>
+                                <td>台灣精銳</td>
+                                <td>109/12/01</td>
+                                <td>300</td>
+                                <td>370</td>
+                                <td>電機機械</td>
+                            </tr>
+                            <tr>
+                                <td>2072</td>
+                                <td>世紀風電</td>
+                                <td>109/12/01</td>
+                                <td>300</td>
+                                <td>370</td>
+                                <td>電機機械</td>
+                            </tr>
+                            <tr>
+                                <td>6797</td>
+                                <td>圓點奈米</td>
+                                <td>109/11/05</td>
+                                <td>356</td>
+                                <td>509</td>
+                                <td>生技業</td>
+                            </tr>
+                            <tr>
+                                <td>6756</td>
+                                <td>威鋒電子</td>
+                                <td>108/12/20</td>
+                                <td>256</td>
+                                <td>330</td>
+                                <td>科技業</td>
+                            </tr>
+                            <tr>
+                                <td>6515</td>
+                                <td>穎崴</td>
+                                <td>108/11/19</td>
+                                <td>368</td>
+                                <td>595</td>
+                                <td>半導體</td>
+                            </tr>
+                            <tr>
+                                <td>6699</td>
+                                <td>奇邑</td>
+                                <td>108/10/14</td>
+                                <td>314</td>
+                                <td>400</td>
+                                <td>半導體</td>
+                            </tr>
+                            <tr>
+                                <td>6732</td>
+                                <td>昇佳電子</td>
+                                <td>108/06/18</td>
+                                <td>230</td>
+                                <td>800</td>
+                                <td>半導體</td>
+                            </tr>
+                            <tr>
+                                <td>2754</td>
+                                <td>亞洲藏壽司</td>
+                                <td>108/06/28</td>
+                                <td>32</td>
+                                <td>152</td>
+                                <td>觀光業</td>
+                            </tr>
+                            <tr>
+                                <td>6732</td>
+                                <td>伊雲谷</td>
+                                <td>107/07/17</td>
+                                <td>118</td>
+                                <td>162</td>
+                                <td>其他電</td>
+                            </tr>
+                            <tr>
+                                <td>6665</td>
+                                <td>康聯生醫</td>
+                                <td>106/11/23</td>
+                                <td>136</td>
+                                <td>324</td>
+                                <td>生技業</td>
+                            </tr>
+                            <tr>
+                                <td>6462</td>
+                                <td>神盾科技</td>
+                                <td>106/06/26</td>
+                                <td>148</td>
+                                <td>174</td>
+                                <td>半導體</td>
+                            </tr>
+                            <tr>
+                                <td>1269</td>
+                                <td>乾杯</td>
+                                <td>105/08/29</td>
+                                <td>82</td>
+                                <td>124</td>
+                                <td>觀光業</td>
+                            </tr>
+                            <tr>
+                                <td>8478</td>
+                                <td>東哥遊艇</td>
+                                <td>104/09/23</td>
+                                <td>200</td>
+                                <td>218</td>
+                                <td>其他業</td>
+                            </tr>
+                            <tr>
+                                <td>6526</td>
+                                <td>絡達科技</td>
+                                <td>104/07/08</td>
+                                <td>155</td>
+                                <td>263</td>
+                                <td>半導體</td>
+                            </tr>
+                            <tr>
+                                <td>6523</td>
+                                <td>達爾膚</td>
+                                <td>104/04/30</td>
+                                <td>130</td>
+                                <td>305</td>
+                                <td>生技業</td>
+                            </tr>
+                            <tr>
+                                <td>8472</td>
+                                <td>夠麻吉</td>
+                                <td>104/01/14</td>
+                                <td>156</td>
+                                <td>250</td>
+                                <td>電子商務業</td>
+                            </tr>
+                            <tr>
+                                <td>6491</td>
+                                <td>晶碩</td>
+                                <td>103/12/30</td>
+                                <td>73</td>
+                                <td>171</td>
+                                <td>生技業</td>
+                            </tr>
+                            <tr>
+                                <td>6468</td>
+                                <td>棒辣椒</td>
+                                <td>103/09/15</td>
+                                <td>300</td>
+                                <td>357</td>
+                                <td>文化創意業</td>
+                            </tr>
+                            <tr>
+                                <td>8450</td>
+                                <td>霹靂國際</td>
+                                <td>102/09/30</td>
+                                <td>133</td>
+                                <td>180</td>
+                                <td>文化創意業</td>
+                            </tr>
+                            <tr>
+                                <td>5287</td>
+                                <td>數字科技</td>
+                                <td>101/09/03</td>
+                                <td>250</td>
+                                <td>270</td>
+                                <td>電子商務業</td>
+                            </tr>
+                            <tr>
+                                <td>2727</td>
+                                <td>王品</td>
+                                <td>100/04/29</td>
+                                <td>302</td>
+                                <td>517</td>
+                                <td>觀光業</td>
+                            </tr>
+                        </table>
+
+
                     </div>
                 </div>
             </section>
